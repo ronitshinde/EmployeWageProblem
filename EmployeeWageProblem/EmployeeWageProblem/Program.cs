@@ -12,7 +12,8 @@ namespace EmployeeWageProblem
         {
             //EmpAttendance empWage = new EmpAttendance();
             //empWage.Attendance();
-            DailyEmpWage.EmpWage();
+            //DailyEmpWage.EmpWage();
+            PartTimeEmpWage.PartTime();
             Console.ReadLine();
         }
     }

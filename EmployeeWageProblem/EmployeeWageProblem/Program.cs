@@ -11,7 +11,8 @@ namespace EmployeeWageProblem
             //DailyEmpWage.EmpWage();
             //PartTimeEmpWage.PartTime();
             //SwitchCaseUse.SwitchCase();
-            MonthlyWages.EmployeeMonthlyWage();
+            //MonthlyWages.EmployeeMonthlyWage();
+            TotalDaysHours.DaysHoursOfMonth();
             Console.ReadLine();
         }
     }

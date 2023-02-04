@@ -10,7 +10,8 @@ namespace EmployeeWageProblem
             //empWage.Attendance();
             //DailyEmpWage.EmpWage();
             //PartTimeEmpWage.PartTime();
-            SwitchCaseUse.SwitchCase();
+            //SwitchCaseUse.SwitchCase();
+            MonthlyWages.EmployeeMonthlyWage();
             Console.ReadLine();
         }
     }

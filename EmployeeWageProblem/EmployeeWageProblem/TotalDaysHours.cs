@@ -7,7 +7,6 @@ namespace EmployeeWageProblem
         public const int Emp_Rate_Per_Hour = 20;
         public const int Num_Of_Working_Days = 20;
         public const int Max_Hours_In_Month = 100;
-
         public static void DaysHoursOfMonth()
         {
             int Emphours = 0;
@@ -38,7 +37,6 @@ namespace EmployeeWageProblem
                         Emphours = 0;
                         break;
                 }
-
                 TotalEmphours += Emphours;
                 Console.WriteLine("Day # " + Totalworkingdays + " Emp hours " + Emphours);
                 Totalworkingdays++;
@@ -48,6 +46,5 @@ namespace EmployeeWageProblem
             TotalEmpwage = TotalEmphours * Emp_Rate_Per_Hour;
             Console.WriteLine("Total Employee wage : " + TotalEmpwage);
         }
-
     }
 }

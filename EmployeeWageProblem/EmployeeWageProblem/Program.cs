@@ -12,7 +12,9 @@ namespace EmployeeWageProblem
             //PartTimeEmpWage.PartTime();
             //SwitchCaseUse.SwitchCase();
             //MonthlyWages.EmployeeMonthlyWage();
-            TotalDaysHours.DaysHoursOfMonth();
+            //TotalDaysHours.DaysHoursOfMonth();
+            RefactorCode refactor = new RefactorCode();
+            refactor.MonthsHours();
             Console.ReadLine();
         }
     }

@@ -49,6 +49,7 @@
     <Compile Include="PartTimeEmpWage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefactorCode.cs" />
     <Compile Include="SwitchCaseUse.cs" />
     <Compile Include="TotalDaysHours.cs" />
   </ItemGroup>
